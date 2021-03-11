@@ -1,0 +1,49 @@
+.flexcontainer{
+    border: 3px solid green;
+    display:flex;
+    flex-direction: row;
+}
+
+/* .box1{
+    width: 100px;
+    height: 300px;
+    background-color: pink;
+   /*order: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.box2{
+    width: 100px;
+    height: 300px;
+    background-color: grey;
+    /*order: 1;
+    flex-grow: 2;
+}
+
+.box3{
+    width: 100px;
+    height: 300px;
+    background-color: yellow;
+    /*order: 2;
+}*/
+
+.box1{
+   
+    background-color: pink;
+  margin: 10px;
+  flex-basis: 100%;
+}
+.box2{    
+    background-color: green;
+    margin: 10px;
+    flex-basis: 100%;
+   
+}
+
+.box3{
+    background-color: blueviolet;
+    margin: 10px;
+    flex-basis: 100%; 
+    flex: 0 1 auto;   
+}
