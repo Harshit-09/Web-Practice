@@ -1,0 +1,26 @@
+/* .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box{
+    border: 1px solid green;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}*/
+
+.flexcontainer{
+    background-color: indigo;
+    height: 200px;
+    display: flex;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border: 2px solid darkolivegreen;
+}
