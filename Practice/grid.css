@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid green;
+    padding: 10px;
+    display: grid;
+    /*grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;*/
+
+    /*grid-template: 100px 200px 300px / 25% 25% 25%;*/
+    /*grid-template: 100px 200px 300px / 1fr 3fr 1fr;*/
+    grid-template: 100px 200px 300px / repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+.box{
+    background-color: indigo;
+    border: 1px solid blue;
+}
